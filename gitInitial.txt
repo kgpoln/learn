@@ -1,2 +1,14 @@
 git init
- 
+
+
+#config git
+git config --global core.editor "code --wait" #to configure default editor
+git config --global -e
+
+
+#configure end of line to add \r\n:
+git config --global core.autocrlf true
+
+	
+
+#link:https://www.youtube.com/watch?v=8JJ101D3knE
