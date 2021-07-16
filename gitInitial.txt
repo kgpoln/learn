@@ -10,7 +10,17 @@ git config --global -e
 git config --global core.autocrlf true
 
 
+#commit and add all the modified files
+git commit -am "Message"
 
+
+
+#mv command can be used to rename/move the files
+
+
+
+#igonre a file
+.gitigone # list all the files and directory here to ignore few files commit
 	
 
 #link:https://www.youtube.com/watch?v=8JJ101D3knE
