@@ -45,6 +45,9 @@ git show head~n
 git ls-tree
 
 git restore --staged
+
+git clean
+
 #link:https://www.youtube.com/watch?v=8JJ101D3knE
 
 EOF
