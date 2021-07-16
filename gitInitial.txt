@@ -23,4 +23,17 @@ git commit -am "Message"
 .gitigone # list all the files and directory here to ignore few files commit
 	
 
+
+#remove the data from staging area
+git  rm --cached -r bin/
+
+#short status
+git status -s
+
+#setting diff tool at config level
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL #$REMOTE"
+
 #link:https://www.youtube.com/watch?v=8JJ101D3knE
+
+EOF
