@@ -34,6 +34,17 @@ git status -s
 git config --global diff.tool vscode
 git config --global difftool.vscode.cmd "code --wait --diff $LOCAL #$REMOTE"
 
+#usefullcommand
+
+git log
+git log --oneline -reverse
+
+git show unique id
+git show head~n
+
+git ls-tree
+
+git restore --staged
 #link:https://www.youtube.com/watch?v=8JJ101D3knE
 
 EOF
