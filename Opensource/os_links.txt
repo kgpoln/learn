@@ -1,0 +1,9 @@
+Contributing to Open Source for the first time:META
+	https://www.youtube.com/watch?v=c6b6B9oN4Vg&list=PLuh30MhujGKerKiyXzmsFzWTCmOaYVmEG&index=1&t=1s
+
+
+How to find Github Repos to contribute to: BEN KADEL: git hub search function
+	https://www.youtube.com/watch?v=W7AewHnxMig
+	
+Complete Guide to Open Source - How to Contribute: free code academy
+	https://www.youtube.com/watch?v=yzeVMecydCE
