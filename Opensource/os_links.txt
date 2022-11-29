@@ -8,6 +8,9 @@ How to find Github Repos to contribute to: BEN KADEL: git hub search function
 Complete Guide to Open Source - How to Contribute: free code academy
 	https://www.youtube.com/watch?v=yzeVMecydCE
 
+How to Find Good First Issues in Open Source?:Kunal
+	https://www.youtube.com/watch?v=ZIkkPzTuOXw
+	https://www.youtube.com/watch?v=Nxja-95Z2zc
 
 good first issue:
 	https://goodfirstissue.dev/language/python
