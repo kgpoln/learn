@@ -14,3 +14,7 @@ How to Find Good First Issues in Open Source?:Kunal
 
 good first issue:
 	https://goodfirstissue.dev/language/python
+
+
+How To Get Started With Open Source:Web Dev Simplified: Example
+	https://www.youtube.com/watch?v=GbqSvJs-6W4
