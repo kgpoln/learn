@@ -7,3 +7,7 @@ How to find Github Repos to contribute to: BEN KADEL: git hub search function
 	
 Complete Guide to Open Source - How to Contribute: free code academy
 	https://www.youtube.com/watch?v=yzeVMecydCE
+
+
+good first issue:
+	https://goodfirstissue.dev/language/python
