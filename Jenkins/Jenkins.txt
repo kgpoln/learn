@@ -1,0 +1,71 @@
+jenkins:https://www.youtube.com/watch?v=89yWXXIOisk&list=RDCMUCTt7pyY-o0eltq14glaG5dg
+	java aplication(refere https://www.youtube.com/watch?v=FqpmH8MVO6A&t=0s)
+	CICD tool
+
+
+Step1:
+	#download the jenkins war
+	#open terminal on the path of the .war file(java installation is pre-requsite)
+	#exe: java -jar jenkins.war $--httpPort 8080$($optionl)
+	#goto http://localhost:8080 
+	#passward: http://localhost:8080/l(path: C:\Users\Learn\.jenkins\secrets\initialAdminPassword)
+	#install needed plugin
+	#create user(kgp_jenkins, 1234)
+	
+	
+-----------------------------------------------
+Change the home directory:
+	
+	check the current directory: http://localhost:8080/manage/configure
+	create new folder(C:\Users\Learn\Documents\Jenkins_h)
+	copy the items from c:/users/.jenkins to new directory
+	set the env variable, JENKINS_HOME
+	restart jenkins(close the current terminal session, JENKINS_HOME is recognised in the next session)
+	log on to jenkins in browser
+	
+-----------------------------------------------
+Command line:
+	start jenkins
+	config global security should be checked
+	#goto http://localhost:8080/cli, download the jenkins-cli.jar
+	
+	DIY
+	
+-----------------------------------------------
+User management
+
+	log on to jemkins
+	manage jenkins-> manage users - > create user
+	
+		manage user roles: download jenkins user role file(.hpi file) and place it in %Jenkins_HoME%/plugins
+		or
+		manage jenkins-> manage plugin role autherization strategy
+		
+	in config_global_security: Authorization should be set to role-bases
+	
+	goto manage and assign roles
+		add a new roles and corresponding access(employee, developed. test)
+	
+-----------------------------------------------
+Basic config:https://www.youtube.com/watch?v=Cr8XSljgEPI&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG&index=6
+
+-----------------------------------------------
+JOB:
+
+build trigers using time, remotely
+
+-----------------------------------------------
+IMP Concept:
+
+https://www.youtube.com/watch?v=HkLXbFDlMtU&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG&index=11 (deployemnt)
+https://www.youtube.com/watch?v=DULs4Wq4xMg&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG&index=13 (email)
+https://www.youtube.com/watch?v=DTRfG_gMLeU&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG&index=14 (pipeline)
+https://www.youtube.com/watch?v=ndLbn24OwQg&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG&index=15 (pipeline visualization)
+	
+-----------------------------------------------
+Tomcat:(https://www.youtube.com/watch?v=ZIIkrn6LHW0&list=PLhW3qG5bs-L9MQ02hBtHVlfrf0TThsZqB&index=1&t=0s)
+	
+	
+-----------------------------------------------
+Java installation:
+	refer https://www.youtube.com/watch?v=FqpmH8MVO6A&t=0s
