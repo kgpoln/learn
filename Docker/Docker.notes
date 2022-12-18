@@ -1,0 +1,31 @@
+Docker is a platform for containerization
+-----------------------------------------------
+
+Play with docker
+
+https://labs.play-with-docker.com/
+-----------------------------------------------
+refer the drive: https://docs.google.com/spreadsheets/d/14eUlh3kydNbfWiQG5mWBr_JAsziXoXStW5Lw4_AVe-U/edit#gid=0
+
+-----------------------------------------------
+Docker COntainer:
+
+Containers are running instances of Docker images
+	
+	
+-----------------------------------------------
+Jenkins:
+
+docker run -p 8080:8080 --name myJen -p 50000:50000 --restart=on-failure -v /home/fedora_base/jenkin_con:/var/jenkins_home jenkins/jenkins:lts-jdk11
+
+
+docker run -p 8080:8080 --name myJen -p 50000:50000 --restart=on-failure -v jen_vol:/jenkins/jenkins:lts-jdk11
+
+sudo docker run  --name myJen -v jen_vol:/var/jenkins_home -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:lts-jdk11
+
+-----------------------------------------------
+docker volume
+
+	docker volume create volumename
+	docker volume inspect volumename
+	
